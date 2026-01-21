@@ -48,10 +48,10 @@ export function ContactPage() {
                   <div>
                     <h3 className="font-bold text-gray-900">Address</h3>
                     <p className="text-gray-600">
-                      Aviation Business Park
+                      27 Old Gloucester Street,
                       <br />
-                      Hangar 7, Sector B<br />
-                      London, UK
+                      London,<br />
+                      WC1N 3AX
                     </p>
                   </div>
                 </div>
@@ -73,11 +73,11 @@ export function ContactPage() {
                   <div>
                     <h3 className="font-bold text-gray-900">Email</h3>
                     <p className="text-gray-600">
-                      General: info@avtrix.com
-                      <br />
+                      info@avtrixservices.com
+                      {/* <br />
                       Operations: ops@avtrix.com
                       <br />
-                      Sales: sales@avtrix.com
+                      Sales: sales@avtrix.com */}
                     </p>
                   </div>
                 </div>
