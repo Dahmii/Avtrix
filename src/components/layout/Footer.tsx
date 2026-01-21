@@ -11,7 +11,7 @@ export function Footer() {
           <div>
             <Link to="/" className="flex items-center space-x-2 mb-6">
               <div>
-              <img src="/public/assets/AvT-01.png" alt="Avtrix Logo" className="h-8 w-auto" />
+              <img src="/assets/AvT-01.png" alt="Avtrix Logo" className="h-8 w-auto" />
           </div>
             </Link>
             <p className="text-sm leading-relaxed text-gray-400 mb-6">

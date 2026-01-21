@@ -24,7 +24,8 @@ export function Header() {
           <Link to="/" className="flex items-center space-x-2 group">
 
           <div>
-              <img src="/public/assets/AvT-02.png" alt="Avtrix Logo" className="h-48 w-auto" />
+              <img src="/assets/AvT-02.png" alt="Avtrix Logo" className="h-48 w-auto" />
+
           </div>
             {/* <div className="bg-blue-600 p-1.5 rounded-sm group-hover:bg-blue-700 transition-colors">
               <Plane className="h-6 w-6 text-white transform -rotate-45" />
