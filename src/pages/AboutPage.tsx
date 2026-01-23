@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Container } from '../components/ui/Container';
 import { SectionHeader } from '../components/sections/SectionHeader';
 import { CTASection } from '../components/sections/CTASection';
@@ -12,10 +12,12 @@ export function AboutPage() {
               Built on Precision
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
-              Avtrix was founded to bridge the gap between operational
-              complexity and service reliability in the aviation sector. We are
-              a team of aviation professionals dedicated to technical
-              excellence.
+              AvTrix is a technical services and supply company focused on 
+supporting industrial, aviation, and infrastructure operations 
+through reliable equipment support, spare parts supply, and 
+technical solutions. We position ourselves as a responsive, 
+detail-driven partner for organizations that require continuity, 
+safety, and performance in their operations.
             </p>
           </div>
         </Container>
@@ -31,18 +33,15 @@ export function AboutPage() {
               </h2>
               <div className="prose prose-lg text-gray-600">
                 <p>
-                  Avtrix is a specialized aviation services provider focused on
-                  ground handling and aircraft parts supply. Headquartered in
-                  London with operational hubs across key regions, we support
-                  commercial airlines, cargo operators, and private aviation
-                  clients.
+                  Our approach blends structured engineering thinking with 
+                  practical on-ground support, ensuring that our clients experience 
+                  minimal downtime and maximum operational confidence.
                 </p>
+                <br></br>
                 <p>
-                  Our organization is structured around the principles of Safety
-                  Management Systems (SMS) and Quality Assurance. We do not just
-                  deliver services; we deliver confidence. When you partner with
-                  Avtrix, you are partnering with a team that understands the
-                  regulatory and operational pressures of modern aviation.
+                  By working closely with stakeholders, we proactively identify risks, optimize processes, 
+                  and adapt quickly to changing project demands. Our hands-on presence 
+                  and commitment to clear communication allow us to deliver dependable solutions that not only meet immediate operational needs but also support long-term efficiency, scalability, and sustainable growth for our clients.
                 </p>
               </div>
             </div>

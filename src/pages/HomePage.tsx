@@ -18,6 +18,8 @@ export function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <ServiceCard icon={Layout} title="Ground Handling" description="Comprehensive ground handling services ensuring operational continuity and safety compliance across all phases of aircraft turnaround. From ramp services to passenger handling." link="/services" />
             <ServiceCard icon={Settings} title="Spares & Supply" description="Reliable aircraft spare parts supply with technical accuracy and timely delivery. We maintain a robust network of certified suppliers to support your maintenance requirements." link="/services" />
+            <ServiceCard icon={Shield} title="Equipment support services" description="Specialized equipment support services tailored to meet the unique demands of aviation operations, ensuring seamless integration and optimal performance." link="/services"  />
+            <ServiceCard icon={Globe} title="Technical Solutions" description="Innovative technical solutions designed to enhance operational efficiency, safety, and compliance within the aviation sector." link="/services"  />
           </div>
         </Container>
       </section>

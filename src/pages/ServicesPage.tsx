@@ -147,7 +147,7 @@ export function ServicesPage() {
                 </p>
                 <p className="mb-8">
                   Every component we supply comes with full traceability and
-                  certification (EASA Form 1 / FAA 8130-3), ensuring seamless
+                  certification, ensuring seamless
                   acceptance by your quality assurance department.
                 </p>
 
@@ -174,6 +174,118 @@ export function ServicesPage() {
           </div>
         </Container>
       </section>
+
+      <hr className='border-gray-200' />
+
+      {/* Equipment Support */}
+      <section className="py-24 bg-white" id="equipment-support">
+        <Container>
+          <div className="flex flex-col lg:flex-row gap-16">
+            <div className="lg:w-1/3">
+              <div className="sticky top-24">
+                <div className="inline-flex items-center justify-center p-3 bg-blue-50 rounded-lg mb-6">
+                  <Wrench className="h-8 w-8 text-blue-600" />
+                </div>
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                  Equipment Support
+                </h2>
+                <p className="text-gray-600 mb-6">
+                  Maintenance and repair services for ground support equipment
+                  (GSE).
+                </p>
+                <ul className="space-y-3 border-t border-gray-100 pt-6">
+                  <li className="flex items-center text-sm text-gray-700">
+                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
+                    Preventive and Corrective Maintenance
+                  </li>
+                  <li className="flex items-center text-sm text-gray-700">
+                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
+                    Installation Support
+                  </li>
+                  <li className="flex items-center text-sm text-gray-700">
+                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
+                    Parts Replacement
+                  </li>
+                  <li className="flex items-center text-sm text-gray-700">
+                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
+                    Manufacturer Liaison
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="lg:w-2/3">
+              <div className="prose prose-lg text-gray-600 max-w-none">
+                <p className="mb-6">
+                  Avtrix offers specialized maintenance and repair services for
+                  a wide range of ground support equipment (GSE). Our certified
+                  technicians are experienced in servicing various makes and
+                  models, ensuring your equipment remains reliable and safe to
+                  operate.
+                </p>
+                <p className="mb-8">
+                  We provide scheduled maintenance programs as well as
+                  emergency repairs to minimize downtime and keep your ground
+                  operations running smoothly.
+                </p>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      <hr className='border-gray-200' />
+
+      {/* Technical Solutions */}
+      <section className="py-24 bg-white" id="technical-solutions">
+        <Container>
+          <div className="flex flex-col lg:flex-row gap-16">
+            <div className="lg:w-1/3">
+              <div className="sticky top-24">
+                <div className="inline-flex items-center justify-center p-3 bg-blue-50 rounded-lg mb-6">
+                  <ClipboardCheck className="h-8 w-8 text-blue-600" />
+                </div>
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                  Technical Solutions
+                </h2>
+                <p className="text-gray-600 mb-6">
+                  Customized technical services to enhance operational
+                  efficiency and compliance.
+                </p>
+                <ul className="space-y-3 border-t border-gray-100 pt-6">
+                  <li className="flex items-center text-sm text-gray-700">
+                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
+                    Technical Assessments
+                  </li>
+                  <li className="flex items-center text-sm text-gray-700">
+                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
+                    Operational Efficiency
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+
+            <div className="lg:w-2/3">
+              <div className="prose prose-lg text-gray-600 max-w-none">
+                <p className="mb-6">
+                  Our technical solutions team works closely with clients to
+                  develop customized services that address specific operational
+                  challenges. From process optimization to compliance audits,
+                  we provide expert guidance and hands-on support.
+                </p>
+                <p className="mb-8">
+                  Leveraging industry best practices and the latest technology,
+                  we help you enhance efficiency, reduce costs, and maintain
+                  regulatory compliance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* CTA Section */}
 
       <CTASection title="Need specific operational support?" description="Our team is ready to discuss your requirements and provide a detailed capability statement." />
     </main>;
