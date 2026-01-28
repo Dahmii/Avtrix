@@ -61,9 +61,8 @@ export function ContactPage() {
                   <div>
                     <h3 className="font-bold text-gray-900">Phone</h3>
                     <p className="text-gray-600">
-                      Operations: +44 (0) 20 1234 5678
-                      <br />
-                      AOG Support: +44 (0) 20 8765 4321
+                       +44 790 355 7615
+                      
                     </p>
                   </div>
                 </div>
