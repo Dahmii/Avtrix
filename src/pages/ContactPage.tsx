@@ -61,7 +61,7 @@ export function ContactPage() {
                   <div>
                     <h3 className="font-bold text-gray-900">Phone</h3>
                     <p className="text-gray-600">
-                       +44 790 355 7615
+                       +44 799 963 8984
                       
                     </p>
                   </div>

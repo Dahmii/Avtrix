@@ -1,10 +1,11 @@
 import React from 'react';
-import { Truck, Wrench, Package, ClipboardCheck } from 'lucide-react';
+import { Package, ClipboardCheck, Truck, Wrench } from 'lucide-react';
 import { Container } from '../components/ui/Container';
-import { SectionHeader } from '../components/sections/SectionHeader';
 import { CTASection } from '../components/sections/CTASection';
+
 export function ServicesPage() {
-  return <main className="pt-20">
+  return (
+    <main className="pt-20">
       {/* Header */}
       <div className="bg-gray-50 py-20 border-b border-gray-200">
         <Container>
@@ -12,87 +13,64 @@ export function ServicesPage() {
             Our Services
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl">
-            Specialized aviation support services designed to maintain
-            operational efficiency and safety compliance for commercial and
-            private operators.
+            Specialized aviation procurement and sourcing services designed to support operational efficiency, safety compliance, and continuity for commercial and private aircraft operators.
           </p>
         </Container>
       </div>
 
-      {/* Ground Handling */}
-      <section className="py-24 bg-white" id="ground-handling">
+      {/* Aviation Procurement & Sourcing */}
+      <section className="py-24 bg-white">
+        <Container>
+          <div className="max-w-4xl">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              Aviation Procurement & Sourcing
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Avtrix provides professional procurement and sourcing support for aircraft ground support equipment (GSE) and aircraft components, acting on behalf of operators, MROs, and aviation service providers.
+            </p>
+            <p className="text-gray-600 mb-6">
+              We work with a global network of approved manufacturers, OEMs, distributors, and certified suppliers to identify, evaluate, and coordinate the supply of equipment and components based on client requirements.
+            </p>
+            <p className="text-gray-600">
+              Avtrix acts strictly as a procurement and sourcing agent and does not hold inventory or manufacture equipment or components.
+            </p>
+          </div>
+        </Container>
+      </section>
+
+      <hr className="border-gray-200" />
+
+      {/* GSE Procurement */}
+      <section className="py-24 bg-white">
         <Container>
           <div className="flex flex-col lg:flex-row gap-16">
             <div className="lg:w-1/3">
               <div className="sticky top-24">
-                <div className="inline-flex items-center justify-center p-3 bg-blue-50 rounded-lg mb-6">
+                <div className="inline-flex p-3 bg-blue-50 rounded-lg mb-6">
                   <Truck className="h-8 w-8 text-blue-600" />
                 </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                  Ground Handling
+                  Ground Support Equipment (GSE) Procurement
                 </h2>
                 <p className="text-gray-600 mb-6">
-                  End-to-end ground support ensuring rapid, safe, and compliant
-                  aircraft turnarounds.
+                  We assist clients in sourcing a wide range of aircraft ground support equipment through approved suppliers, ensuring compliance with operational, safety, and regulatory requirements.
                 </p>
-                <ul className="space-y-3 border-t border-gray-100 pt-6">
-                  <li className="flex items-center text-sm text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
-                    Ramp Services
-                  </li>
-                  <li className="flex items-center text-sm text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
-                    Passenger Handling
-                  </li>
-                  <li className="flex items-center text-sm text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
-                    Cargo & Mail Handling
-                  </li>
-                  <li className="flex items-center text-sm text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
-                    Load Control
-                  </li>
-                </ul>
               </div>
             </div>
 
             <div className="lg:w-2/3">
-              <div className="prose prose-lg text-gray-600 max-w-none">
-                <p className="mb-6">
-                  Avtrix provides comprehensive ground handling services
-                  tailored to the specific needs of airlines and private
-                  operators. Our team is trained to the highest industry
-                  standards, ensuring that every interaction with your aircraft
-                  is conducted with precision and care.
-                </p>
-                <p className="mb-8">
-                  We understand that turnaround time is critical to your
-                  schedule. Our optimized processes and coordinated team efforts
-                  minimize ground time while strictly adhering to safety
-                  protocols.
-                </p>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 not-prose">
-                  <div className="p-6 bg-gray-50 border border-gray-100 rounded-sm">
-                    <h3 className="font-bold text-gray-900 mb-2">
-                      Safety Compliance
-                    </h3>
-                    <p className="text-sm">
-                      Rigorous adherence to ISAGO standards and airline-specific
-                      safety manuals.
-                    </p>
-                  </div>
-                  <div className="p-6 bg-gray-50 border border-gray-100 rounded-sm">
-                    <h3 className="font-bold text-gray-900 mb-2">
-                      Equipment Reliability
-                    </h3>
-                    <p className="text-sm">
-                      Modern, well-maintained GSE fleet to support all aircraft
-                      types.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <ul className="space-y-4 text-gray-700">
+                <li>Tow tractors and tugs</li>
+                <li>Ground power units (GPU)</li>
+                <li>Air start units (ASU)</li>
+                <li>Belt loaders and cargo loaders</li>
+                <li>Passenger stairs and access platforms</li>
+                <li>De-icing and servicing equipment</li>
+                <li>Tooling and auxiliary ground equipment</li>
+              </ul>
+              <p className="text-gray-600 mt-8">
+                All equipment is sourced upon client instruction and supplied directly by third-party manufacturers or vendors.
+              </p>
             </div>
           </div>
         </Container>
@@ -100,193 +78,122 @@ export function ServicesPage() {
 
       <hr className="border-gray-200" />
 
-      {/* Spares & Supply */}
-      <section className="py-24 bg-white" id="spares">
+      {/* Aircraft Components & Spares */}
+      <section className="py-24 bg-white">
         <Container>
           <div className="flex flex-col lg:flex-row gap-16">
             <div className="lg:w-1/3">
               <div className="sticky top-24">
-                <div className="inline-flex items-center justify-center p-3 bg-blue-50 rounded-lg mb-6">
+                <div className="inline-flex p-3 bg-blue-50 rounded-lg mb-6">
                   <Package className="h-8 w-8 text-blue-600" />
                 </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                  Aircraft Spares
+                  Aircraft Components & Spares Sourcing
                 </h2>
                 <p className="text-gray-600 mb-6">
-                  Global sourcing and supply of certified aircraft parts and
-                  consumables.
+                  Avtrix provides global sourcing support for certified aircraft components, spares, and consumables through OEMs and approved distributors.
                 </p>
-                <ul className="space-y-3 border-t border-gray-100 pt-6">
-                  <li className="flex items-center text-sm text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
-                    Rotables & Consumables
-                  </li>
-                  <li className="flex items-center text-sm text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
-                    AOG Support
-                  </li>
-                  <li className="flex items-center text-sm text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
-                    Tooling & Equipment
-                  </li>
-                  <li className="flex items-center text-sm text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
-                    Logistics Management
-                  </li>
-                </ul>
               </div>
             </div>
 
             <div className="lg:w-2/3">
-              <div className="prose prose-lg text-gray-600 max-w-none">
-                <p className="mb-6">
-                  Our spares and supply division is dedicated to keeping your
-                  fleet airworthy. We leverage a global network of approved
-                  suppliers and OEMs to source hard-to-find parts and everyday
-                  consumables with equal efficiency.
-                </p>
-                <p className="mb-8">
-                  Every component we supply comes with full traceability and
-                  certification, ensuring seamless
-                  acceptance by your quality assurance department.
-                </p>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 not-prose">
-                  <div className="p-6 bg-gray-50 border border-gray-100 rounded-sm">
-                    <h3 className="font-bold text-gray-900 mb-2">
-                      Documentation
-                    </h3>
-                    <p className="text-sm">
-                      Complete traceability and certification packages with
-                      every shipment.
-                    </p>
-                  </div>
-                  <div className="p-6 bg-gray-50 border border-gray-100 rounded-sm">
-                    <h3 className="font-bold text-gray-900 mb-2">Logistics</h3>
-                    <p className="text-sm">
-                      Global shipping solutions including dangerous goods
-                      handling.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <ul className="space-y-4 text-gray-700">
+                <li>Rotable components</li>
+                <li>Line-replaceable units (LRUs)</li>
+                <li>Consumables and expendables</li>
+                <li>Tooling and ground equipment spares</li>
+                <li>AOG and urgent procurement support</li>
+              </ul>
+              <p className="text-gray-600 mt-8">
+                Every sourced component is supported by full traceability and applicable certification as provided by the original supplier.
+              </p>
             </div>
           </div>
         </Container>
       </section>
 
-      <hr className='border-gray-200' />
+      <hr className="border-gray-200" />
 
-      {/* Equipment Support */}
-      <section className="py-24 bg-white" id="equipment-support">
+      {/* Logistics & Supplier Coordination */}
+      <section className="py-24 bg-white">
         <Container>
           <div className="flex flex-col lg:flex-row gap-16">
             <div className="lg:w-1/3">
               <div className="sticky top-24">
-                <div className="inline-flex items-center justify-center p-3 bg-blue-50 rounded-lg mb-6">
-                  <Wrench className="h-8 w-8 text-blue-600" />
+                <div className="inline-flex p-3 bg-blue-50 rounded-lg mb-6">
+                  <Truck className="h-8 w-8 text-blue-600" />
                 </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                  Equipment Support
+                  Logistics & Supplier Coordination
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  Maintenance and repair services for ground support equipment
-                  (GSE).
-                </p>
-                <ul className="space-y-3 border-t border-gray-100 pt-6">
-                  <li className="flex items-center text-sm text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
-                    Preventive and Corrective Maintenance
-                  </li>
-                  <li className="flex items-center text-sm text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
-                    Installation Support
-                  </li>
-                  <li className="flex items-center text-sm text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
-                    Parts Replacement
-                  </li>
-                  <li className="flex items-center text-sm text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
-                    Manufacturer Liaison
-                  </li>
-                </ul>
               </div>
             </div>
-
             <div className="lg:w-2/3">
-              <div className="prose prose-lg text-gray-600 max-w-none">
-                <p className="mb-6">
-                  Avtrix offers specialized maintenance and repair services for
-                  a wide range of ground support equipment (GSE). Our certified
-                  technicians are experienced in servicing various makes and
-                  models, ensuring your equipment remains reliable and safe to
-                  operate.
-                </p>
-                <p className="mb-8">
-                  We provide scheduled maintenance programs as well as
-                  emergency repairs to minimize downtime and keep your ground
-                  operations running smoothly.
-                </p>
-              </div>
+              <ul className="space-y-4 text-gray-700">
+                <li>Supplier liaison and verification</li>
+                <li>Documentation and certification review</li>
+                <li>International logistics coordination</li>
+                <li>Dangerous goods handling via approved carriers</li>
+              </ul>
+              <p className="text-gray-600 mt-8">
+                All shipping and fulfillment activities are performed by third-party logistics providers.
+              </p>
             </div>
           </div>
         </Container>
       </section>
 
-      <hr className='border-gray-200' />
+      <hr className="border-gray-200" />
 
-      {/* Technical Solutions */}
-      <section className="py-24 bg-white" id="technical-solutions">
+      {/* Compliance & Quality Support */}
+      <section className="py-24 bg-white">
         <Container>
           <div className="flex flex-col lg:flex-row gap-16">
             <div className="lg:w-1/3">
               <div className="sticky top-24">
-                <div className="inline-flex items-center justify-center p-3 bg-blue-50 rounded-lg mb-6">
+                <div className="inline-flex p-3 bg-blue-50 rounded-lg mb-6">
                   <ClipboardCheck className="h-8 w-8 text-blue-600" />
                 </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                  Technical Solutions
+                  Compliance & Quality Support
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  Customized technical services to enhance operational
-                  efficiency and compliance.
-                </p>
-                <ul className="space-y-3 border-t border-gray-100 pt-6">
-                  <li className="flex items-center text-sm text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
-                    Technical Assessments
-                  </li>
-                  <li className="flex items-center text-sm text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></span>
-                    Operational Efficiency
-                  </li>
-                  
-                </ul>
               </div>
             </div>
-
             <div className="lg:w-2/3">
-              <div className="prose prose-lg text-gray-600 max-w-none">
-                <p className="mb-6">
-                  Our technical solutions team works closely with clients to
-                  develop customized services that address specific operational
-                  challenges. From process optimization to compliance audits,
-                  we provide expert guidance and hands-on support.
-                </p>
-                <p className="mb-8">
-                  Leveraging industry best practices and the latest technology,
-                  we help you enhance efficiency, reduce costs, and maintain
-                  regulatory compliance.
-                </p>
-              </div>
+              <ul className="space-y-4 text-gray-700">
+                <li>Supplier due diligence</li>
+                <li>Documentation verification</li>
+                <li>Traceability support</li>
+                <li>Regulatory alignment with client QA requirements</li>
+              </ul>
             </div>
           </div>
         </Container>
       </section>
 
-      {/* CTA Section */}
+      <hr className="border-gray-200" />
 
-      <CTASection title="Need specific operational support?" description="Our team is ready to discuss your requirements and provide a detailed capability statement." />
-    </main>;
+      {/* Commercial Model */}
+      <section className="py-24 bg-white">
+        <Container>
+          <div className="max-w-4xl">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              Commercial Model
+            </h2>
+            <p className="text-gray-600 mb-4">
+              Avtrix operates on a service-based model. Compensation is derived from procurement fees or sourcing commissions agreed with clients in advance.
+            </p>
+            <p className="text-gray-600">
+              Avtrix does not trade, resell, or warehouse equipment or aircraft components and acts solely as an intermediary between buyers and approved suppliers.
+            </p>
+          </div>
+        </Container>
+      </section>
+
+      <CTASection
+        title="Need specific operational support?"
+        description="Our team is ready to discuss your requirements and provide a detailed capability statement."
+      />
+    </main>
+  );
 }
