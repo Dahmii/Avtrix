@@ -6,11 +6,13 @@ export function TrustBlock() {
     icon: ShieldCheck,
     title: 'Safety First Culture',
     description: 'Rigorous adherence to international safety protocols and SMS implementation.'
-  }, {
-    icon: Award,
-    title: 'Certified Operations',
-    description: 'Fully compliant with IATA, ISO 9001, and local aviation authority standards.'
-  }, {
+  }, 
+  // {
+  //   icon: Award,
+  //   title: 'Certified Operations',
+  //   description: 'Fully compliant with IATA, ISO 9001, and local aviation authority standards.'
+  // }, 
+  {
     icon: Clock,
     title: '24/7 Reliability',
     description: 'Round-the-clock operational support ensuring minimal downtime for your fleet.'
@@ -21,7 +23,7 @@ export function TrustBlock() {
   }];
   return <section className="py-20 bg-gray-50 border-y border-gray-200">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {indicators.map((item, index) => <div key={index} className="flex flex-col items-start">
               <div className="mb-4 p-2 bg-white border border-gray-200 rounded shadow-sm">
                 <item.icon className="h-6 w-6 text-blue-600" />
