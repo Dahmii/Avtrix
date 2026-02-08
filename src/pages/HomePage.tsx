@@ -8,7 +8,7 @@ import { CTASection } from '../components/sections/CTASection';
 import { Container } from '../components/ui/Container';
 export function HomePage() {
   return <main>
-      <HeroSection title="Dependable Aviation Solutions" subtitle="Ground handling services and aircraft spare parts supply with uncompromising safety and operational reliability." ctaText="Request Information" ctaLink="/contact" />
+      <HeroSection title="AOG-Focused Aircraft Support" subtitle=" When aircraft are grounded, speed isn't enough. We manage part correctness, documentation, customs risk, and delivery — end-to-end. " ctaText="Request Information" ctaLink="/contact" />
 
       {/* Services Overview */}
       <section className="py-24 bg-white">

@@ -42,7 +42,7 @@ export function HeroSection({
               {ctaText}
             </Button>
             <Button href="/services" variant="outline" className="text-base px-8 py-4 bg-transparent text-black border-gray-600 hover:bg-white/10 hover:border-white hover:text-white">
-              Explore Services
+              AOG? Whatsapp Now
             </Button>
           </div>
         </div>
