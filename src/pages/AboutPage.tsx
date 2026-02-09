@@ -116,12 +116,12 @@ export function AboutPage() {
       </section>
 
       {/* Our Team Placeholder */}
-      <section className="py-24 bg-white">
+      {/* <section className="py-24 bg-white">
         <Container>
           <SectionHeader title="Our Team" className="mb-12" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             
-            {/* Technical Director */}
+            
             <div className="flex flex-col md:flex-row gap-8 items-start border border-gray-100 p-6 rounded-sm hover:shadow-md transition-shadow">
               <div className="w-32 h-40 bg-gray-100 flex items-center justify-center rounded-sm shrink-0">
                 <User className="h-12 w-12 text-gray-300" />
@@ -140,7 +140,7 @@ export function AboutPage() {
               </div>
             </div>
 
-            {/* Commercial Director */}
+            
             <div className="flex flex-col md:flex-row gap-8 items-start border border-gray-100 p-6 rounded-sm hover:shadow-md transition-shadow">
               <div className="w-32 h-40 bg-gray-100 flex items-center justify-center rounded-sm shrink-0">
                 <User className="h-12 w-12 text-gray-300" />
@@ -160,7 +160,7 @@ export function AboutPage() {
 
           </div>
         </Container>
-      </section>
+      </section> */}
 
       {/* Credentials & Experience */}
       <section className="py-24 bg-gray-50 border-t border-gray-200">
