@@ -25,7 +25,7 @@ export function ContactPage() {
   return <main className="pt-20">
       <div className="bg-gray-900 text-white py-20">
         <Container>
-          <h1 className="text-4xl lg:text-5xl font-bold mb-6">Contact Us</h1>
+          <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-white">Contact Us</h1>
           <p className="text-xl text-gray-300 max-w-3xl">
             Get in touch with our operations team for service inquiries, RFQs,
             or partnership opportunities.

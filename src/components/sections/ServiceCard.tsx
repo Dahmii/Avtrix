@@ -27,10 +27,10 @@ export function ServiceCard({
           {description}
         </p>
 
-        <div className="flex items-center text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+        {/* <div className="flex items-center text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
           View Capabilities
           <ArrowRight className="ml-2 h-4 w-4 transform group-hover:translate-x-1 transition-transform duration-300" />
-        </div>
+        </div> */}
       </div>
     </Link>;
 }
