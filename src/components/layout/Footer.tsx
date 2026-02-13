@@ -15,9 +15,9 @@ export function Footer() {
           </div>
             </Link>
             <p className="text-sm leading-relaxed text-gray-400 mb-6">
-              Dependable aviation solutions partner delivering ground handling
-              services and aircraft spare parts with uncompromising safety and
-              operational reliability.
+             Dependable aviation solutions partner delivering aircraft spare parts 
+             and critical logistics support with 
+             uncompromising safety and operational reliability.
             </p>
           </div>
 
@@ -27,6 +27,11 @@ export function Footer() {
               Company
             </h3>
             <ul className="space-y-4">
+              <li>
+                <Link to="/" className="text-sm hover:text-white transition-colors">
+                  Home
+                </Link>
+              </li>
               <li>
                 <Link to="/about" className="text-sm hover:text-white transition-colors">
                   About Us
@@ -62,18 +67,18 @@ export function Footer() {
                 </Link>
               </li> */}
               <li>
-                <Link to="/services" className="text-sm hover:text-white transition-colors">
-                  Aircraft Spares
+                <Link to="/services#aog-parts" className="text-sm hover:text-white transition-colors">
+                 AOG & Critical Parts Procurement
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-sm hover:text-white transition-colors">
-                  Logistics Support
+                <Link to="/services#gse-tooling" className="text-sm hover:text-white transition-colors">
+                  GSE & Tooling
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-sm hover:text-white transition-colors">
-                  Technical Supply
+                <Link to="/services#aog-logistics" className="text-sm hover:text-white transition-colors">
+                  AOG & Critical Logistics Management
                 </Link>
               </li>
             </ul>

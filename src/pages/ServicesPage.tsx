@@ -21,7 +21,7 @@ export function ServicesPage() {
       </div>
 
       {/* AOG & Critical Parts Procurement */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-white" id='aog-parts'>
         <Container>
           <div className="flex flex-col lg:flex-row gap-16">
             <div className="lg:w-1/3">
@@ -70,7 +70,7 @@ export function ServicesPage() {
       <hr className="border-gray-200" />
 
       {/* Ground Support Equipment & Tooling */}
-      <section className="py-24 bg-gray-50">
+      <section className="py-24 bg-gray-50" id='gse-tooling'>
         <Container>
           <div className="flex flex-col lg:flex-row gap-16">
             <div className="lg:w-1/3">
@@ -147,7 +147,7 @@ export function ServicesPage() {
       </section>
 
       {/* Logistics & Customs */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-white" id='aog-logistics'>
         <Container>
           <SectionHeader title="AOG & Critical Logistics Management" subtitle="We manage the entire delivery chain — not just the shipment." className="mb-16" />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
