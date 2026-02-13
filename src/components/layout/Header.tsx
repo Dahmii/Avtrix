@@ -12,10 +12,12 @@ export function Header() {
   }, {
     name: 'About',
     href: '/about'
-  }, {
-    name: 'Safety',
-    href: '/safety'
-  }];
+  }, 
+  // {
+  //   name: 'Safety',
+  //   href: '/safety'
+  // }
+];
   const isActive = (path: string) => location.pathname === path;
   return <header className="fixed w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50">
       <Container>

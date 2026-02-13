@@ -225,7 +225,7 @@ export function ServicesPage() {
             </div>
             <div className="bg-green-50 p-6 border border-green-100 rounded-sm">
                <p className="text-sm text-green-800 font-medium mb-2">For AOG Support:</p>
-               <Button href="https://wa.me/YOUR_NUMBER" className="bg-green-600 hover:bg-green-700 border-none">
+               <Button href="https://wa.me/+447999638984" target='_blank' className="bg-green-600 hover:bg-green-700 border-none">
                  <MessageCircle className="mr-2 h-4 w-4" /> WhatsApp Now
                </Button>
             </div>
