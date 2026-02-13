@@ -150,7 +150,7 @@ export function HomePage() {
                 </div>
               ))}
             </div>
-            <Button href="https://wa.me/YOUR_NUMBER" className="bg-green-600 hover:bg-green-700 text-white border-none py-6 px-10 text-xl">
+            <Button href="https://wa.me/+447999638984" target="_blank" className="bg-green-600 hover:bg-green-700 text-white border-none py-6 px-10 text-xl">
               <MessageCircle className="mr-2 h-6 w-6" /> WHATSAPP AOG HOTLINE
             </Button>
           </div>

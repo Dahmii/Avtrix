@@ -38,7 +38,7 @@ export function HeroSection({
               {ctaText}
             </Button>
             {/* Updated to secondary/outline style as per plan */}
-            <Button href="https://wa.me/YOUR_NUMBER" variant="outline" className="text-base px-8 py-4 bg-transparent text-black border-gray-600 hover:bg-white/10 hover:border-white hover:text-white transition-colors">
+            <Button href="https://wa.me/+447999638984" target="_blank" variant="outline" className="text-base px-8 py-4 bg-transparent text-black border-gray-600 hover:bg-white/10 hover:border-white hover:text-white transition-colors">
               AOG? Whatsapp Now
             </Button>
           </div>
