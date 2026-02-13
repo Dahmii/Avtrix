@@ -37,11 +37,11 @@ export function Footer() {
                   Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/safety" className="text-sm hover:text-white transition-colors">
                   Safety & Compliance
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/contact" className="text-sm hover:text-white transition-colors">
                   Contact
@@ -56,11 +56,11 @@ export function Footer() {
               Services
             </h3>
             <ul className="space-y-4">
-              <li>
+              {/* <li>
                 <Link to="/services" className="text-sm hover:text-white transition-colors">
                   Ground Handling
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/services" className="text-sm hover:text-white transition-colors">
                   Aircraft Spares
