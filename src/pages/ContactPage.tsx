@@ -11,12 +11,12 @@ export function ContactPage() {
     e.preventDefault();
 
     if (form.current) {
-      // Replace these with your actual IDs from the EmailJS dashboard
+      
       emailjs.sendForm(
-        'service_tx0rbhh', 
-        'template_aaivx6o', 
+        'service ID here', 
+        'Template ID here', 
         form.current, 
-        '6oaSpEd-tBrNmLVPV'
+        'public key here'
       )
       .then((result) => {
           alert('Thank you. Your inquiry has been sent to our operations team.');
@@ -87,9 +87,9 @@ export function ContactPage() {
                   For Aircraft on Ground (AOG) situations, message our duty engineer directly on WhatsApp. 
                   This is monitored 24/7 for time-critical emergencies.
                 </p>
-                {/* Replace YOUR_NUMBER with the actual number when provided */}
+                
                 <Button href="https://wa.me/447999638984" target="_blank" className="w-full bg-green-600 hover:bg-green-700 border-none text-white">
-                  <MessageCircle className="mr-2 h-5 w-5" /> {/* Optional: Adding the icon for visual impact */}
+                  <MessageCircle className="mr-2 h-5 w-5" /> 
                     WhatsApp AOG Hotline
                 </Button>
               </div>
@@ -116,13 +116,6 @@ export function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="title" className="block text-sm font-medium text-gray-700 mb-1">
-                    Aircraft Type & Serial Number
-                  </label>
-                  <input type="text" id="title" name="title" required placeholder="e.g. Phenom 300 / MSN 505XXXXX" className="w-full px-4 py-2 border border-gray-300 rounded-sm focus:ring-2 focus:ring-blue-500 outline-none" />
-                </div>
-
-                <div>
                   <label htmlFor="request_type" className="block text-sm font-medium text-gray-700 mb-1">
                     Request Type
                   </label>
@@ -132,6 +125,13 @@ export function ContactPage() {
                     <option value="aog">AOG Support Request</option>
                     <option value="other">Other Inquiry</option>
                   </select>
+                </div>
+
+                <div>
+                  <label htmlFor="title" className="block text-sm font-medium text-gray-700 mb-1">
+                    Aircraft Type & Serial Number
+                  </label>
+                  <input type="text" id="title" name="title" placeholder="e.g. Phenom 300 / MSN 505XXXXX" className="w-full px-4 py-2 border border-gray-300 rounded-sm focus:ring-2 focus:ring-blue-500 outline-none" />
                 </div>
 
                 <div>

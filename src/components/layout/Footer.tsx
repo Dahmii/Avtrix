@@ -115,6 +115,11 @@ export function Footer() {
           <p className="text-sm text-gray-500">
             &copy; {currentYear} Avtrix Aviation Services. All rights reserved.
           </p>
+          <div className="flex gap-6">
+            <Link to="/privacy-policy" className="text-sm text-gray-500 hover:text-white">
+              Privacy Policy
+            </Link>
+          </div>
           {/* <div className="flex space-x-6 mt-4 md:mt-0">
             <span className="text-sm text-gray-500">
               ISO 9001:2015 Certified
